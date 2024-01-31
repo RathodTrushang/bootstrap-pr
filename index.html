@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulKitchen Dark</title>
+
+    <!-- logo -->
+
+    <link href="images/logo.png" rel="icon" type="icon/png" />
+
+    <!-- bootstrap.min -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- style.css -->
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- bootstrap-icons -->
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css"/>
+
+    <!-- font -->
+
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+
+    <!-- topbar -->
+
+    <section class="bg-dark pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex text-white justify-content-between">
+                    <div class="contan align-items-center d-flex">
+                        <p class="pe-5"> <i class="bi bi-geo-alt-fill"></i> 317 Pacific C HwyHuntington, CA 92648 </p>
+                        <p class="pe-5 d-none d-sm-block"> <i class="bi bi-phone"></i>123.456-7</p>
+                        <p class="pe-5 d-none d-sm-block"> eat@soulkitchen.com </p>
+                    </div>
+                    <div class="icon d-none d-lg-block">
+                        <i class="bi bi-instagram cursor pe-3"></i>
+                        <i class="bi bi-facebook cursor pe-3"></i>
+                        <i class="bi bi-twitter cursor pe-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- header -->
+
+    <header class="m-header p-3">
+     <div class="container-fluid">
+        <div class="row align-items-center justify-content-between"data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+            <div class="nav d-none d-lg-block col-4 justify-content-end">
+                <ul class="d-flex nav p-2">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">HOME</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="index.html">HOME 1</a></li>
+                            <li><a class="dropdown-item text-white" href="home2.html">HOME 2</a></li>
+                            <li><a class="dropdown-item text-white" href="home3.html">HOME 3</a></li>
+                          </ul>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">ABOUT</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="#">The Team</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Team Block Examples</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">MENUS</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="#">Menu Block Examples</a></li>
+                            <li><a class="dropdown-item text-white" href="#">List Menu + Gallery Sections</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Menu With Tabs</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Menu with Category Image</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Menu Items with Image</a></li>
+
+                          </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo col-2 col-lg-3">
+                <img src="images/logo1.png" alt="logo1" width="100%" class="image-fluid">
+            </div>
+            <div class="nav d-none d-lg-block  col-4">
+                <ul class="d-flex nav p-2 justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item text-white " href="#">Book your Table</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Another action</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Book your Table (Open Table)</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Gallery</a></li>
+                            <li><a class="dropdown-item text-white " href="#">News</a></li>
+                            <li><a class="dropdown-item text-white " href="#">FAQ</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Custom Blocks</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Content Boxes Examples</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Recommended and Supported Plugins</a></li>
+
+
+                          </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="#">23</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Another action</a></li>
+                            <li><a class="dropdown-item text-white " href="#">Something else here</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white"  data-bs-toggle="dropdown" aria-expanded="false">CONTAC</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="#">Locations</a></li>
+                          </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     Warning
+                 </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Warning Message</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                         44  Message Available
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+     </div>
+    </header>
+
+    <!-- hero -->
+
+    <section>
+        <div class="hero">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <div class="col-6 padding-100 d-none d-lg-block">
+                            <h2 class="text-white h1 text-center">THE SOUL K <em>I</em>TCHEN <br>  EXPERIENCE</h2>
+                            <p class="p-3 text-white col-lg-12">Our daily changing menu represents the best of what our local markets have to offer.</p>
+                            <div class="text-center">
+                                <button class="btn btn-color text-white">view menu</button>
+                            </div>
+                        </div>
+                        <div class="col-12 height-400 col-lg-6">
+                         <img src="images/hero1.jpg" class="col-12 height-400" alt="hero1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card cursor col-12 col-lg-4 text-bg-dark">
+                    <img src="images/ab1.jpg" class="card-img" alt="ab1">
+                    <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                      <p class="text-center h1 card-title"> About</p>
+                    </div>
+                  </div>
+                  <div class="card cursor col-12 col-lg-4 text-bg-dark">
+                    <img src="images/ab2.jpg" class="card-img" alt="ab1">
+                    <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                      <p class="text-center h1 card-title "> Lunch Special</p>
+                    </div>
+                  </div>
+                  <div class="card cursor col-12 col-lg-4 text-bg-dark">
+                    <img src="images/ab3.jpg" class="card-img" alt="ab1">
+                    <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                      <p class="text-center h1 card-title "> What’s Happening</p>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- text -->
+
+    <section class="py-60">
+        <div class="container">
+            <div class="row">
+                <div class="text-con text-white text-center fs-5">
+                    <p class="">SOUL KITCHEN, founded in 2022, is dedicated to all those who love to wander far and wide.
+                     We invite you on a wholesome culinary adventure, where you’ll explore undiscovered
+                     gourmet experiences.</p>
+                    <p>Thank you for creating lasting memories with us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Mila Kim -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <div class="row text-white">
+                <div class="col-12 col-lg-6 col-xl-6">
+                    <img src="images/cook.jpg" class="col-12" alt="cook">
+                </div>
+                <div class="col-12 col-lg-6 bg-dark text-center py-60 col-xl-3">
+                    <h2>Chef Mila Kim</h2>
+                    <p>Milas culinary creations are reflective of her own extensive travels and love of combining
+                    flavours from all over the world. Her cooking focuses on vegetable-centric dishes sourced from local
+                    farmers and she pays thoughtful attention to ingredients and subtle flavors.</p>
+                    <button class="btn btn-color text-white"> meet the team </button>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <img src="images/cook1.jpg" class="col-12 col-lg-5 col-xl-12" alt="cook1">
+                    <img src="images/cook2.jpg" class="col-12 col-lg-5 col-xl-12" alt="cook2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Philosophy -->
+
+    <section class="py-60">
+        <div class="container">
+            <div class="row">
+                <div class="text-con text-white text-center fs-5">
+                    <p>QALITY IS AT HEART OF EVERYTHING WE DO</p>
+                    <p class="display-5">The Soul Kitchen Food Philosophy</p>
+                    <p class="display-5">|</p>
+                    <p class="ps-5 pe-5">Our daily changing menu represents the best of what our local markets have to offer. Our passion for sourcing 
+                    fresh ingredients from farmers and suppliers we know, combining with traditional flavors and rewriting familiar 
+                    recipes into exceptional cuisine is our mission and greatest joy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <div class="d-xl-flex flex-wrap">
+                <div class="card cursor text-bg-dark col-12 col-xl-4">
+                    <img src="images/co3.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay flex-wrap align-items-end d-flex justify-content-center">
+                      <p class="text-center h1 card-title mb-4">Our Tea Selection</p>
+                    </div>
+                  </div>
+                  <div class="card cursor text-bg-dark col-12 col-xl-4">
+                    <img src="images/co4.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay align-items-end flex-wrap d-flex justify-content-center">
+                      <p class="text-center h1 card-title">Vegan Delights</p>
+                    </div>
+                  </div>
+                  <div class="card cursor text-bg-dark col-12 col-xl-4">
+                    <img src="images/co5.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay align-items-end flex-wrap d-flex justify-content-center">
+                      <p class="text-center h1 card-title">Signature Drinks</p>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- Drink Menu -->
+
+    <section class="py-50">
+        <div class="container">
+            <div class="row">
+                <div class="text-white text-center">
+                    <h3 class="fs-1">Drink Menu</h3>
+                    <span class="fs-1">|<br></span>
+                    <span class="m-5">Wine List</span>
+                    <span class="m-5">Cocktails</span>
+                </div>
+                <div class="menu text-white d-lg-flex bg-dark">
+                <div class="col-12 border col-lg-6">
+                    <h3 class="m-5"> Sparkling Wines</h3>
+                    <div class="menu-sab m-5">
+                        <div class="justify-content-between d-flex">
+                            <p>Castello del Poggio Moscato d’Ast</p><span>57</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Compo Viejo Cava, Rose</p><span>54</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Veuve Clicquot Brut Yellow Label Champagne</p><span>48</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Domaine Carneros Brut</p><span>48</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Villa Sandi Prosecco Doc Rosé</p><span>58</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Champagne Nicolas Feuillatte Brut Reserve Exclusive</p><span>65</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h3 class="m-5"> WHITE WINES</h3>
+                    <div class="menu-sab m-5">
+                        <div class="justify-content-between d-flex">
+                            <p>2020 Bourgogne. Domaine Bernard Moreau</p><span>56</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Pinot Grigio Bollini, Trentino, Italy, 2018</p><span>54</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Chardonnay Laguna, California 2017</p><span>52</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Alpha Omega Chardonnay 2017</p><span>42</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Ponzi Vineyards Pinot Gris 2018</p><span>47</span>
+                        </div>
+                        <div class="justify-content-between d-flex">
+                            <p>Kim Crawford Sauvignon Blank</p><span>42</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="menu text-white d-lg-flex bg-dark">
+                    <div class="col-12 col-lg-6">
+                        <h3 class="m-5"> SAKE</h3>
+                        <div class="menu-sab m-5">
+                            <div class="justify-content-between d-flex">
+                                <p>Forgotten Fortuna</p><span>79</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Pacific Ocean</p><span>80</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Well of Wisdom</p><span>52</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Beautiful Liliy</p><span>51</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 border col-lg-6">
+                        <h3 class="m-5"> RED WINES</h3>
+                        <div class="menu-sab m-5">
+                            <div class="justify-content-between d-flex">
+                                <p>2012 Red Hills Vineyard. Derenoncourt. Napa Valley</p><span>64</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Merlot St. Francis, Sonoma County, California, 2016</p><span>63</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Antinori Tignanello</p><span>49</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>La Rioja Alta Gran Reserva 904 Tinto 2011</p><span>43</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Bodegas Vega Sicilia Unico Tinto 2010</p><span>54</span>
+                            </div>
+                            <div class="justify-content-between d-flex">
+                                <p>Chateau La Mission Haut Brion 2015</p><span>65</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What’s Happening -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <h3 class="fs-1 text-center text-white">What’s Happening <br>|</h3>
+            <span class="fs-1 text-center text-white"></span>
+            <div class="d-xl-flex">
+                <div class="card text-bg-dark col-12 col-xl-4">
+                    <img src="images/co1.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay flex-wrap justify-content-end align-items-center text-center d-flex flex-column ">
+                        <button class="btn btn-color d-block col-3 text-white mb-2 me-2">view menu</button>
+                      <p class=" h6 card-title p-2"> December 18, 2022 <br> New Year’s Eve at Soul Kitchen</p>
+                    </div>
+                </div>
+                  <div class="card text-bg-dark col-12 col-xl-4">
+                    <img src="images/ab3.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay justify-content-end align-items-center text-center flex-column d-flex"> 
+                        <button class="btn btn-color d-block col-3 text-white mb-2 me-2">view menu</button>
+                      <p class=" h6 card-title">November 2, 2022 <br> New Winter Menu</p>
+                </div>
+                  </div>
+                <div class="card text-bg-dark col-12 col-xl-4">
+                    <img src="images/co2.jpg" class="card-img col-12" alt="ab1">
+                    <div class="card-img-overlay justify-content-end align-items-center text-center flex-column d-flex">
+                        <button class="btn btn-color d-block col-3 text-white mb-2 me-2">view menu</button>
+                      <p class=" h6 card-title">October 21, 2022 <br> An Interview with Chef Mila Kim</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner text-white">
+                      <div class="carousel-item active">
+                        <h4 class="fs-5 text-center">Everything about our experience was amazing, from pulling up to the valet, to the spectacular views, top notch food, five star service and sounds of the ocean while eating.”</h4>
+                      </div>
+                      <div class="carousel-item">
+                        <h4 class="fs-5 text-center">“The views and the atmosphere are breathtaking, the food is spectacular and cooked to perfection. All around just a wonderful place to visit.””</h4>
+                      </div >
+                      <div class="carousel-item">
+                        <h4 class="fs-5 text-center">“The chef's tasting menu is outstanding, drinks are excellent and staff is attentive and very friendly. No details missed here.”</h4>
+                      </div>
+                      <div class="carousel-item">
+                        <h4 class="fs-5 text-center">“Customer service was on point and the food was out of this world. Every single dish had so much flavour. It was a great experience and we will definitely come back.””</h4>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- In the Press -->
+
+    <section class="py-60">
+        <div class="container">
+            <div class="row">
+                <div class="text-white text-center">
+                    <h3 class="fs-1">In the Press</h3>
+                    <span class="fs-1">|</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-center p-5 flex-wrap">
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i1.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i2.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i3.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i4.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i5.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i6.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i7.png" alt="i1" class="col-12">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 col-xxl-2 p-4">
+                        <img src="images/i8.png" alt="i1" class="col-12">
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Soul Kitchen -->
+
+    <section class="py-50">
+        <div class="container">
+            <div class="row">
+                <div class="mb-3 Kitchen-title text-center text-white">
+                    <h2 class="fs-1">Explore Soul Kitchen <br> |</h2>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card cursor text-bg-dark col-12 col-md-4">
+                        <img src="images/k1.jpg" class="card-img col-12" alt="k2" >
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center"> 
+                            <p class="text-center fs-3">FULL-SERVICE CATERING <br> Learn More</p>
+                        </div>
+                    </div>
+                    <div class="card cursor text-bg-dark col-12 col-md-8">
+                        <img src="images/k2.jpg" class="card-img col-12 ps-3" alt="k2" height="415px">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center"> 
+                            <p class="text-center fs-3">SOUL KITCHEN LAGUNA BEACH <br> Open for dine in</p>
+                        </div>
+                    </div>
+                    <div class="card cursor text-bg-dark col-12 col-md-4">
+                        <img src="images/k3.jpg" class="card-img col-12" alt="k2" height="415px">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center"> 
+                            <p class="text-center fs-3">OUR TEA SELECTION <br>Rituals for Focus, Health & Slowness</p>
+                        </div>
+                    </div>
+                    <div class="card cursor text-bg-dark col-12 col-md-4">
+                        <img src="images/k4.jpg" class="card-img col-12 ps-3" alt="k2">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center"> 
+                            <p class="text-center fs-3">PRIVATE DINING & EVENTS<br> Book Now</p>
+                        </div>
+                    </div>
+                    <div class="card cursor text-bg-dark col-12 col-md-4">
+                        <img src="images/k5.jpg" class="card-img col-12 ps-3" alt="k2">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center"> 
+                            <p class="text-center fs-3">TAKE AWAY<br> Soul Kitchen To Go</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- form -->
+
+    <section class="py-50">
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="row justify-content-center text-white text-center p-5">
+                    <div class="form-ti mt-5">
+                        <h3 class="mb-4">Keep Up to Date with Soul Kitchen</h3>
+                        <p class="mb-5"> Sign up to be the first to receive special news and event updates from SoulKitchen. </p>
+                    </div>
+                    <div class="col-6 d-flex flex-wrap flex-lg-nowrap  mb-5">
+                      <input type="email" class="form-control me-5 col-12 col-lg-6" id="inputPassword" placeholder="Email">
+                      <button class="btn col-12 btn-color text-white col-lg-2">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations-menu -->
+
+    <section class="py-50">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex text-white flex-wrap">
+                    <div class="col-12 col-lg-3 fs-1 text-center">
+                        <i class="bi bi-calendar-date"></i>
+                        <p class="fs-5">Reservations</p>
+                        <p class="mt-4 fs-5">Are highly recommended</p>
+                    </div>
+                    <div class="col-12 col-lg-3  fs-1 text-center">
+                        <i class="bi bi-car-front-fill"></i>
+                        <p class="fs-5">Parking</p>
+                        <p class="mt-4 fs-5">Valet Parking is available</p>
+                    </div>
+                    <div class="col-12 col-lg-3 fs-1 text-center">
+                        <i class="bi bi-people"></i>
+                        <p class="fs-5">Dress Attire</p>
+                        <p class="mt-4 fs-5">Smart casua</p>
+                </div>
+                    <div class="col-12 col-lg-3 fs-1 text-center">
+                        <i class="bi bi-tree-fill"></i> 
+                        <p class="fs-5">Vegetarian</p>
+                        <p class="mt-4 fs-5">Vegetarian on request</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Find Us -->
+
+    <section class="py-60">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap">
+                    <div class="card text-bg-dark col-12 col-lg-6">
+                        <img src="images/a1.jpg" alt="a1" class="col-12">
+                        <div class="card-img-overlay d-flex align-items-center justify-content-center"> 
+                           <p class="text-center fs-2">THANK YOU FOR CREATING LASTING MEMORIES WITH US <BR>Find Us <br><button class="btn col-2 btn-color text-white col-lg-2">Sign up</button></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-white p-5 d-flex justify-content-center flex-column">
+                        <h2 class="h1">Visit us</h2>
+                        <p class="pt-2">Enjoy an exceptional culinary experience.</p>
+                        <p class="pt-2">Monday – Friday <br> 7am – 6pm</p>
+                        <p class="pt-2">Saturday/Sunday <br>8am – 6pm</p>
+                        <button class="btn pt-2 col-2 btn-color text-white col-lg-2 m-0-a">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap text-white">
+                    <div class="col-12 p-5 col-sm-6 col-lg-3 text-center">
+                        <h4 class="mb-3 fs-5">Welcome to Soul Kitchen</h4>
+                        <p class="mb-3 fs-13">SOUL KITCHEN, founded in 2022, is dedicated to all those who love to wander far and wide.</p>
+                        <p class="mb-3 fs-13">
+                            We'd like to invite you on a culinary adventure, where you’ll explore undiscovered gourmet experiences.
+                        </p>
+                    </div>
+                    <div class="col-12 p-5 col-sm-6 col-lg-3 text-center">
+                        <h4 class="mb-3 fs-5">VISIT</h4>
+                        <p class="mb-3 fs-13">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            317 Pacific C Hwy
+                            Huntington, CA 92648</p>
+                        <h4 class="mb-3 fs-5">TALK</h4>
+                        <p class="mb-3 fs-13"> 
+                            <i class="bi bi-phone"></i>
+                            123.456-7</p>
+                            <h4 class="mb-3 fs-5">WRITE</h4>
+                        <p class="mb-3 fs-5">
+                            <i class="bi bi-envelope-fill"></i>  eat@soulkitchen.com
+                        </p>
+                    </div>
+                    <div class="col-12 p-5 col-sm-6 col-lg-3 text-center">
+                        <h4 class="mb-3 fs-5">RESERVATIONS</h4>
+                        <button class="btn btn-color text-white">view menu</button>
+                        <h4 class="mb-3 fs-5">HOURS</h4>
+                        <p class="mb-3 fs-13"> 
+                            MONDAY thru FRIDAY
+                            11am - 9pm </p>
+                            
+                        <p class="mb-3 fs-5">
+                            SATURDAY/SUNDAY
+                                10am - 11pm
+                        </p>
+                    </div>
+                    <div class="col-12 p-5 col-sm-6 col-lg-3 text-center">
+                        <h4 class="mb-3 fs-5">ABOUT</h4>
+                        <p class="mb-3 fs-13">FAQ
+                            Reservation Policy
+                            Privacy Policy
+                            Health & Safety</p>
+                        <p class="mb-3 fs-5">
+                            FOLLOW ALONG
+                        </p>
+                        <i class="bi bi-instagram pe-3"></i>
+                        <i class="bi bi-facebook pe-3"></i>
+                        <i class="bi bi-twitter pe-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RIGHTS RESERVED -->
+
+        <section>
+            <div class="container-fluid bg-dark p-3">
+                <div class="row">
+                    <div class="d-flex text-center flex-wrap justify-content-between text-white align-items-center">
+                        <div class="con col-12 col-lg-4">© 2023 SOULKITCHEN. ALL RIGHTS RESERVED.</div>
+                        <div class="con col-12 col-lg-4"><img src="images/logo1.png" class="col-6" alt="logo"></div>
+                        <div class="con col-12 col-lg-4">TASTE THE DIFFERENCE</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+</html>

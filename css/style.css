@@ -1,0 +1,49 @@
+.m-header{
+    background-color: black;
+}
+body{
+    background-color: rgb(7, 7, 7);
+}
+.height-400{
+    height: 830px;
+}
+.padding-100{
+    padding: 200px 150px;
+}
+.m-0-a{
+    margin: 0 auto;
+}
+.py-60{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.btn-color{
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 8px;
+}
+.p-t{
+    padding-top: 10px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.m-t{
+    margin-top: 450px;
+}
+.mar-4{
+    margin-top: 40px;
+}
+.dropdown-menu{
+    --bs-dropdown-link-hover-bg: transparent;
+    background-color: black;
+}
+.cursor{
+    cursor: pointer;
+}
+body{
+    font-family: 'Helvetica';
+}
